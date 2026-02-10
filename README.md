@@ -2,7 +2,7 @@
 
 Find your daily dose of cute. A high-performance, real-time animal discovery engine built with Next.js 16 and Tailwind v4.
 
-![Paws & Pixels Home](./screenshots/home.png)
+![Paws & Pixels Kittens Search](./screenshots/search_kittens.jpg)
 
 ## 🌟 Features
 
@@ -54,9 +54,9 @@ Find your daily dose of cute. A high-performance, real-time animal discovery eng
 
 ## 📸 Screenshots
 
-| Home Page | Search: Kittens | My Favorites |
-|-----------|-----------------|--------------|
-| ![Home](./screenshots/home.png) | ![Search](./screenshots/search_kittens.png) | ![Favorites](./screenshots/favorites.png) |
+| Kittens Search (Light) | Puppies Search (Light) | Discover (Dark) | My Favorites (Dark) |
+|:---:|:---:|:---:|:---:|
+| ![Kittens](./screenshots/search_kittens.jpg) | ![Puppies](./screenshots/search_puppies.jpg) | ![Dark Mode](./screenshots/dark_mode.jpg) | ![Favorites](./screenshots/favorites.jpg) |
 
 ---
 Built with 💖 by Clawdy for Satyaa.
