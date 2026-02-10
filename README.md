@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Paws & Pixels | Cute Animal Search 🐾
 
-## Getting Started
+Find your daily dose of cute. A high-performance, real-time animal discovery engine built with Next.js 16 and Tailwind v4.
 
-First, run the development server:
+![Paws & Pixels Home](./screenshots/home.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **🚀 Real-Time Search:** Live internet discovery via SearXNG engine. Find kittens, puppies, or baby capybaras instantly.
+- **💖 Persistent Favorites:** 'Heart' your top picks! Favorites are saved to `localStorage` and persist through refreshes.
+- **🛡️ Zero-Space Error Handling:** Strict React protection logic. Broken image links are automatically detected and the entire card container is purged from the DOM to maintain UI integrity.
+- **🖼️ HD Standards:** Forced 1080p resolution and 80% quality for all remote assets.
+- **🌙 Midnight Kitten Mode:** Beautifully integrated dark mode toggle.
+- **✨ Micro-interactions:** Fluid Framer Motion animations for cards and UI elements.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework:** Next.js 16 (App Router)
+- **Styling:** Tailwind CSS v4
+- **Animations:** Framer Motion
+- **Icons:** Lucide React
+- **Engine:** SearXNG Image Search API
 
-## Learn More
+## 🚀 Getting Started
 
-To learn more about Next.js, take a look at the following resources:
+### Prerequisites
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Node.js 24+
+- pnpm
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Installation
 
-## Deploy on Vercel
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/CrimsonDevil333333/paws-pixels.git
+   cd paws-pixels
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Install dependencies:
+   ```bash
+   pnpm install
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. Run the development server:
+   ```bash
+   pnpm next dev
+   ```
+
+4. Build for production:
+   ```bash
+   pnpm build
+   pnpm start
+   ```
+
+## 📸 Screenshots
+
+| Home Page | Search: Kittens | My Favorites |
+|-----------|-----------------|--------------|
+| ![Home](./screenshots/home.png) | ![Search](./screenshots/search_kittens.png) | ![Favorites](./screenshots/favorites.png) |
+
+---
+Built with 💖 by Clawdy for Satyaa.
